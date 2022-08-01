@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Resume</title>
+</head>
+<body>
+<!-- создаем контейнеры для структуры сайта-->
+<!-- Main-->
+<div class="main">
+    <!-- контейнер для основного блока -->
+    <!--Main content-->
+    <div class="main-content">
+        <!-- информация о субъкте about user.  -->
+            <!-- стилизуем блок о субъекте -->
+            <div class="about">
+            <h2 class="about-position">Front-End Developer. Front office middle manager</h2>
+            <h1 class="about-name">Nataliya Yalovega</h1>
+            <p class="about-description">
+                She graduated from the IT GoIT school course with a specialty in FULL STACK. I can work with Photoshop as a designer. I know how to write the correct semantic HTML code, add CSS styles to a web page, create an adaptive layout.  Certified confirmation received. I strive for professional growth in the IT field.
+            </p>
+
+            </div>
+            
+
+        <!-- projects -->
+            <!-- добавляем класс для стилизации блока -->
+            <div class="projects">
+                <!-- Стилизуем разделы, присваеваем класс -->
+                <h3 class="title">Projects</h3>
+                <ol class="projects-list">
+                    <li class="projects-item">
+                        <span class="project">
+                        <a href="https://mirform.wordpress.com/" class="project-link">https://mirform.wordpress.com/</a>
+                        .......................................
+                        <span class="project-bracket">[</span> HTML5, CSS3 <span class="project-bracket">]</span>
+                        </span>                
+                    
+                    </li>
+                    <li class="projects-item">
+                        <span class="project">
+                        <a href="https://mir-form.ucoz.net/" class="project-link">https://mir-form.ucoz.net/</a>
+                        .....................................................
+                        <span class="project-bracket">[</span> JavaScript <span class="project-bracket">]</span>
+                        </span>
+                    </li>
+                    <li class="projects-item">
+                        <span class="project">
+                        <a href="https://fabrika-svit-darunkiv.com.ua/ua/" class="project-link" >https://fabrika-svit-darunkiv.com.ua/ua/</a>
+                        .....................
+                        <span class="project-bracket">[</span> React.js, Node.js <span class="project-bracket">]</span>
+                        </span>
+                    </li>
+                    <li class="projects-item">
+                        <span class="project">
+                        <a href="https://podarochnie-korobki.blogspot.com/" class="project-link">https://podarochnie-korobki.blogspot.com/</a>
+                        ............
+                        <span class="project-bracket">[</span> React.js, Node.js <span class="project-bracket">]</span>
+                        </span>
+                    </li>
+                </ol>
+            </div>
+
+        <!-- Work контейнер для описания опыта работы -->
+            <div class="work">
+                <h3 class="title">Work Experience</h3>
+                <!-- Company 1 -->
+                <div>
+                    <h4 class="work-position">Front office middle manager.<span class="organization"> Freelance</span> </h4>
+                    <h5 class="period">September 2016 - up to now  <span class="line">|</span> Ukraine</h5>
+                    <ul class="work-list">
+                        <li class="work-list-item">Organization and conduct of advertising companies; conferences; participation in exhibitions.</li>
+                        <li class="work-list-item">Development of the company's strategy, creation of a presentation</li>
+                        <li class="work-list-item">Market analysis, competitor monitoring, segmentation, positioning.</li>
+                        <li class="work-list-item">Сontacts with contractors, advertising agents,</li>
+                    </ul>
+                </div>
+
+                <!-- Company 2 -->
+                <div>
+                    <h4 class="work-position">Front office middle manager <span class="organization"> Bank of Ukraine NEW</span></h4>
+                    <h5 class="period">March 2013 - October 2016  <span class="line">|</span> Ukraine</h5>
+                    <ul class="work-list">
+                        <li class="work-list-item">Active sales of banking products to legal entities. </li>
+                        <li class="work-list-item">Presentations, negotiations, conclusion of contracts.</li>
+                        <li class="work-list-item">Customer support in the back office for the entire period of validity of the banking product.</li>
+                        
+                    </ul>
+                </div>
+
+                <!-- Company 3 -->
+                <div>
+                    <h4 class="work-position">Front office middle manager <span class="organization"> Bank of Ukraine </span> </h4>
+                    <h5 class="period">June 2003 - February 2013  <span class="line">|</span> Ukraine</h5>
+                    <ul class="work-list">
+                        <li class="work-list-item">Filling out the client's card in the CRM system.</li>
+                        <li class="work-list-item">Sale of goods by script.</li>
+                        <li class="work-list-item">Product presentation and consultation.</li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+        <!-- Контейнер Education образование -->
+            <div class="education">
+                <h3 class="education-title" >Education</h3>
+                <h4><span class="institution">National Mining University</span></h4>
+                <p class="speciality">Finance</p>
+                <h5 class="period">September 2001 - June 2008  <span class="line">|</span>  Ukraine</h5>
+            </div>
+    </div>
+
+
+    <!-- контейнер для боковой части сайта sidebar, используем тег aside, он больше подходит для боковой структуры
+    сайта. Тег div так же верен и не является ошибкой -->
+    <aside class="sidebar">
+        <img src="img/photo2.jpg" alt="user photo"  class="photo">
+        <!-- Contacts -->
+        <div>
+            <div class="contacts">
+                <h3 class="sidebar-title">Contacts</h3>
+                <p> 
+                    <span class="contact-type">C:</span>
+                    <a href="tel:+380669576124" class="contact-link">+ 38 066 957 61 24</a>
+                </p>
+                <p>
+                    <span class="contact-type">E:</span>
+                    <a href="mailto:vitveda@gmail.com" class="contact-link"> vitveda@gmail.com</a> 
+                </p>
+            </div>
+            <!-- Tech skills -->
+            <div class="tech-skills">
+                <h3 class="sidebar-title">Tech Skils</h3>
+                <ul class="tech-skills-list">
+                   <li class="tech-skills-item"> <span class="tech-skills-text">HTML5</span></li>
+                   <li class="tech-skills-item"> <span class="tech-skills-text">CSS3</span></li>
+                   <li class="tech-skills-item"> <span class="tech-skills-text">GIT</span></li>
+                   <li class="tech-skills-item"> <span class="tech-skills-text">WebPack</span></li>
+                   <li class="tech-skills-item"> <span class="tech-skills-text">JavaScript</span></li>
+                   <li class="tech-skills-item"> <span class="tech-skills-text">React.js</span></li>
+                   <li class="tech-skills-item"> <span class="tech-skills-text">Node.js</span></li>
+                </ul>
+            </div>
+            <!-- Soft Skills -->
+            <div class="soft-skills">
+                <h3 class="sidebar-title">Soft Skills</h3>
+                <ul class="soft-skills-list">
+                   <li class="soft-skills-item"> <span class="soft-skills-text">Scrum</span> </li>
+                   <li class="soft-skills-item"> <span class="soft-skills-text">Agile</span> </li>
+                   <li class="soft-skills-item"> <span class="soft-skills-text">GTD</span> </li>
+                   <li class="soft-skills-item"> <span class="soft-skills-text">Teamwork</span></li>
+                   <li class="soft-skills-item"> <span class="soft-skills-text">IT English</span></li>
+                </ul>
+            </div>
+            <!-- Career Skills -->
+            <div class="career-skills">
+                <h3 class="sidebar-title">Career Skills</h3>
+                <ul class="career-skills-list">
+                   <li class="career-skills-item"> <span class="career-skills-text">B2B</span> </li>
+                   <li class="career-skills-item"> <span class="career-skills-text">B2C</span> </li>
+                   <li class="career-skills-item"> <span class="career-skills-text">GTD</span> </li>
+                   <li class="career-skills-item"> <span class="career-skills-text">PMCG</span></li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+    
+</div>
+
+</body>
+</html>
